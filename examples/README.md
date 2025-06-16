@@ -6,7 +6,6 @@ This directory contains real-world examples of how the prompts in this repositor
 
 These examples demonstrate:
 - **Real Usage**: How prompts were actually used in production
-- **Customization Process**: Step-by-step customization with actual values
 - **Results**: What worked and what was learned
 - **Project Context**: Links to actual repositories and outcomes
 
@@ -14,15 +13,10 @@ These examples demonstrate:
 
 ### 🔬 R Package Development
 
-#### 1. [R Package Customization Guide](r-package-customization.md)
-**What**: Step-by-step guide showing how to customize the R Package Development prompt  
-**Project**: Animal feed analysis R package  
-**Key Features**: Global variables, configuration system, domain terminology  
-
-#### 2. [Original Cursor Rules - moo4feed](cursor-rules-moo4feed-original.md)
+#### 1. [Original Cursor Rules - moo4feed](cursor-rules-moo4feed-original.md)
 **What**: The actual Cursor rules used to develop the moo4feed R package  
-**Project**: [moo4feed](https://github.com/skysheng7/moo4feed) - R package for dairy cow feed analysis  
-**Key Features**: Production-tested rules, specific to animal feed data processing  
+**Project**: [moo4feed](https://github.com/skysheng7/moo4feed) - R package to extract individual animal's story from sensor data  
+**Key Features**: Production-tested rules, specific to animal feeding and drinking data processing  
 **Status**: ✅ Successfully used to build complete R package with >90% test coverage
 
 ## 🔄 How These Examples Help
