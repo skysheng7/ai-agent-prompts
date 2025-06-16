@@ -23,8 +23,7 @@ You are an expert in R package development, with a focus on creating maintainabl
 - Write clean, efficient R code that follows tidyverse style guidelines.
 - Write DRY (Don't Repeat Yourself) code, write small functions for code that you keep using in multiple places.
 - Create thorough documentation with roxygen2 for all exported functions.
-- In documentation and comments, use {DOMAIN_TERMINOLOGY} (e.g., say "entity" instead of specific domain terms to maintain generalization).
-- Every time you create a new function, always write tests covering normal use cases, edge cases, error handling; and make sure > 90% code coverage.
+- Every time you create a new function, always write tests covering normal use cases, edge cases, error handling; and make sure > 95% code coverage.
 - Use global variables from {GLOBAL_VARS_FILE} (never hard-code column names) and configuration systems defined in {CONFIG_FILE}.
 - DO NOT write files to disk within functions.
 - DO NOT modify `man/` or `NAMESPACE`.
@@ -43,16 +42,6 @@ You are an expert in R package development, with a focus on creating maintainabl
 - `tests/testthat/`: Test files using test-function_name.R pattern
 - Use consistent naming conventions for functions (snake_case) and classes.
 - Keep functions focused on single tasks; complex operations should be broken down to multiple small internal help functions.
-
-## Global Variables and Configuration System:
-- Always use the global variable system defined in {GLOBAL_VARS_FILE}:
-  - Access column names with functions like {ID_COL_FUNCTION}(), {START_COL_FUNCTION}(), {END_COL_FUNCTION}(), etc.
-  - Use {TIMEZONE_FUNCTION}() for timezone settings
-  - Access bin configurations with {BIN_CONFIG_FUNCTIONS}
-  - Use `@inheritParams` to avoid documentation duplication
-- Always use the configuration system from {CONFIG_FILE}: 
-  - Create configurations with {CONFIG_FUNCTION}() for quality control functions
-  - Pass configuration objects to functions that need thresholds or customized settings
 
 ## Documentation Standards:
 
@@ -104,17 +93,11 @@ Replace these placeholders with your specific values:
 
 | Placeholder | Description | Example |
 |-------------|-------------|---------|
-| `{DOMAIN_TERMINOLOGY}` | Domain-specific language preferences | "use 'animal' instead of 'cow' to maintain generalization" |
 | `{GLOBAL_VARS_FILE}` | Path to your global variables file | `@global_var.R` |
 | `{CONFIG_FILE}` | Path to your configuration setup file | `@quality_check_setup.R` |
 | `{DATETIME_FUNCTION}` | Your datetime function name | `ad_datetime` |
 | `{TIMEZONE_FUNCTION}` | Your timezone function name | `tz2` |
 | `{PKGDOWN_CONFIG_FILE}` | Path to pkgdown configuration | `[pkgdown.yaml](mdc:.github/workflows/pkgdown.yaml)` |
-| `{ID_COL_FUNCTION}` | Function for ID column names | `id_col2` |
-| `{START_COL_FUNCTION}` | Function for start column names | `start_col2` |
-| `{END_COL_FUNCTION}` | Function for end column names | `end_col2` |
-| `{BIN_CONFIG_FUNCTIONS}` | Bin configuration functions | `bins_feed2(), bins_wat2(), bin_offset2()` |
-| `{CONFIG_FUNCTION}` | Configuration creation function | `qc_config` |
 | `{EXAMPLE_FUNCTION_FILE}` | Reference file for code examples | `[qc_total_entities.R](mdc:R/qc_total_entities.R)` |
 | `{ADDITIONAL_DOMAIN_RULES}` | Any additional domain-specific rules | Custom rules for your specific use case |
 
@@ -124,11 +107,6 @@ Replace these placeholders with your specific values:
 2. **Test Early**: The prompt emphasizes testing - make sure your AI agent creates comprehensive tests
 3. **Documentation First**: Good documentation prevents many issues down the line
 4. **Global Variables**: Using a global variable system prevents hard-coding and improves maintainability
-
-## 📚 Related Prompts
-
-- [Python Package Development](../python-dev.md) (Coming Soon)
-- [Data Analysis Workflow](../../data-science/analysis-workflow.md) (Coming Soon)
 
 ## 🔄 Version History
 
