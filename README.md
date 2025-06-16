@@ -8,7 +8,7 @@
 
 ## 🎯 Mission
 
-This repository contains **real-world tested** system prompts and rules that have been proven effective in guiding AI agents. Every prompt here has been used in production and refined through actual experience.
+This repository contains **real-world tested** system prompts and rules that have been proven effective in guiding AI agents (e.g., Cusor, Claude Code, Augment). Every prompt here has been used in production and refined through actual experience.
 
 ## 🗂️ Repository Structure
 
