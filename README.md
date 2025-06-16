@@ -15,9 +15,7 @@ This repository contains **real-world tested** system prompts and rules that hav
 ```
 📁 prompts/
 ├── 📁 development/           # Software development prompts
-│   ├── r-package-dev.md     # R package development specialist
-│   ├── python-dev.md        # Python development guidelines
-│   └── web-dev.md           # Web development best practices
+│   └── r-package-dev.md     # R package development specialist
 ├── 📁 data-science/         # Data science and analysis
 ├── 📁 writing/              # Content creation and writing
 ├── 📁 research/             # Research and analysis tasks
