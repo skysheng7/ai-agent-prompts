@@ -28,16 +28,12 @@ A comprehensive guide for creating and deploying a Jupyter Book website.
 
 ```
 📁 prompts/
-├── 📁 development/           # Software development prompts
-│   └── r-package-dev.md     # R package development specialist
-├── 📁 data-science/         # Data science and analysis
-├── 📁 writing/              # Content creation and writing
-├── 📁 research/             # Research and analysis tasks
-└── 📁 general/              # General-purpose system prompts
-
-📁 templates/                # Template prompts with placeholders
-📁 examples/                 # Usage examples and case studies
-📁 tools/                    # Utilities for prompt management
+├── 📁 development/             # Software development prompts
+|   └── jupyter-book-guide.md   # Jupyter book development specialist
+|   └── r-package-dev.md        # R package development specialist
+📁 templates/                   # Template prompts with placeholders
+📁 examples/                    # Usage examples and case studies
+📁 tools/                       # Utilities for prompt management
 ```
 
 ## ✨ Features
@@ -67,11 +63,12 @@ Each prompt file includes:
 
 ## 🤝 Contributing
 
-We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details on:
-- How to submit new prompts
-- Testing requirements
-- Documentation standards
-- Community guidelines
+We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
+
+**How to contribute**:
+1. Create an issue using our [New Prompt Submission template](../.github/ISSUE_TEMPLATE/new-prompt.md)
+2. Include your example in the description
+3. We'll work with you to add it to this collection
 
 ## 📋 Prompt Quality Standards
 
