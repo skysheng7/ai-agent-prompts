@@ -17,7 +17,7 @@ Perfect for building maintainable R packages following CRAN standards
 - [View Prompt](prompts/development/r-package-dev.md)
 - Use case: R package development with tidyverse principles
 
-### 📚 Jupyter Book Development Expert
+### 📚 Jupyter Book Development Expert [🌟NEW!!]
 A comprehensive guide for creating and deploying a Jupyter Book website.
 - [View Prompt](prompts/development/jupyter-book-guide.md)
 - Use case: Creating a professional-looking online book from Jupyter notebooks.
