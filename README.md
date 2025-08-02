@@ -10,6 +10,20 @@
 
 This repository contains **real-world tested** system prompts and rules that have been proven effective in guiding AI agents (e.g., Cusor, Claude Code, Augment). Every prompt here has been used in production and refined through actual experience.
 
+## 🎉 Archived System Prompts
+
+### 🔬 R Package Development Expert
+Perfect for building maintainable R packages following CRAN standards
+- [View Prompt](prompts/development/r-package-dev.md)
+- Use case: R package development with tidyverse principles
+
+### 📚 Jupyter Book Development Expert
+A comprehensive guide for creating and deploying a Jupyter Book website.
+- [View Prompt](prompts/development/jupyter-book-guide.md)
+- Use case: Creating a professional-looking online book from Jupyter notebooks.
+
+*More prompts coming soon!*
+
 ## 🗂️ Repository Structure
 
 ```
@@ -67,14 +81,6 @@ All prompts in this repository must meet these criteria:
 - ✅ **Generalized**: Applicable beyond specific use cases
 - ✅ **Maintainable**: Easy to understand and modify
 
-## 🎉 Featured Prompts
-
-### 🔬 R Package Development Specialist
-Perfect for building maintainable R packages following CRAN standards
-- [View Prompt](prompts/development/r-package-dev.md)
-- Use case: R package development with tidyverse principles
-
-*More prompts coming soon!*
 
 ## 📄 License
 
