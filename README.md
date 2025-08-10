@@ -10,6 +10,10 @@
 
 This repository contains **real-world tested** system prompts and rules that have been proven effective in guiding AI agents (e.g., Cusor, Claude Code, Augment). Every prompt here has been used in production and refined through actual experience.
 
+## 🤖 AI Use
+
+Most of the AI agent rules are created to guide **Cursor** and **Anthropic Claude** LLMs.
+
 ## 🎉 Archived System Prompts
 
 ### 🔬 R Package Development Expert
