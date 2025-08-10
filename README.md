@@ -17,10 +17,15 @@ Perfect for building maintainable R packages following CRAN standards
 - [View Prompt](prompts/development/r-package-dev.md)
 - Use case: R package development with tidyverse principles
 
-### 📚 Jupyter Book Development Expert [🌟NEW!!]
+### 📚 Jupyter Book Development Expert
 A comprehensive guide for creating and deploying a Jupyter Book website.
 - [View Prompt](prompts/development/jupyter-book-guide.md)
 - Use case: Creating a professional-looking online book from Jupyter notebooks.
+
+### 🎒 Kids Data Science Workshop Author [🌟NEW!!]
+Create a 5-day R-based workshop for ages 10–14 with consistent structure, activities, solutions, emojis, and time estimates.
+- [View Prompt](prompts/writing/kids-data-science-workshop.md)
+- Use case: Authoring/editing curriculum with strict formatting and age-appropriate complexity
 
 *More prompts coming soon!*
 
@@ -31,6 +36,8 @@ A comprehensive guide for creating and deploying a Jupyter Book website.
 ├── 📁 development/             # Software development prompts
 |   └── jupyter-book-guide.md   # Jupyter book development specialist
 |   └── r-package-dev.md        # R package development specialist
+├── 📁 writing/                 # Writing, curriculum, documentation prompts
+|   └── kids-data-science-workshop.md  # Kids workshop authoring rules
 📁 templates/                   # Template prompts with placeholders
 📁 examples/                    # Usage examples and case studies
 📁 tools/                       # Utilities for prompt management
