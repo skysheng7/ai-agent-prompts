@@ -1,8 +1,11 @@
 # 🎒 Kids Data Science Workshop: A Real-World Example
 
 > Project: Data Science for Kids Workshop
+
 > Status: ✅ Ready-to-use rules
+
 > Key Features: Structured 5-day plan, playful tone, strict file/numbering rules
+
 > Domain: K–12 education, R programming
 
 ## 📋 Overview

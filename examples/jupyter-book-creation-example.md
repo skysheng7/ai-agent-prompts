@@ -1,8 +1,11 @@
 # 📚 Jupyter Book Creation: A Real-World Example
 
 > **Project**: [Data Science for Kids](http://www.skysheng.io/data_science_for_kids/) - An online book created with Jupyter Book  
+
 > **Status**: ✅ Production-ready guide and workflow
+
 > **Key Features**: Automated Deployment, GitHub Actions, Professional Formatting
+
 > **Domain**: Technical documentation, online courses, educational content creation
 
 ## 📋 Overview
