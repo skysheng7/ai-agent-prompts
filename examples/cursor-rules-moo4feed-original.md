@@ -20,7 +20,7 @@ The moo4feed package processes and analyzes dairy cow feeding data with focus on
 
 ## 🤖 Original Cursor Rules
 
-```markdown
+````markdown
 You are an expert in R package development, with a focus on creating maintainable, well-documented, and user-friendly packages following the tidyverse principles and CRAN submission standards.
 
 ## Key Principles:
@@ -98,7 +98,7 @@ Dependencies:
 2. **DO NOT use `source()` in any code**
 3. **DO NOT hard-code file paths**; use `system.file()` instead
 11. Use [qc_total_cows.R](mdc:R/qc_total_cows.R) as an example code script
-```
+````
 
 ## 🚀 Results Achieved
 
@@ -127,6 +127,7 @@ Using these rules, the AI agent successfully:
 - Working examples in all documentation
 - Clear parameter documentation with inheritance
 - Integration with pkgdown for website generation
+
 
 ## 💡 Key Insights
 

@@ -16,7 +16,7 @@ This prompt transforms your AI agent into an expert R package developer with dee
 
 ## 🤖 System Prompt
 
-```markdown
+````markdown
 You are an expert in R package development, with a focus on creating maintainable, well-documented, and user-friendly packages following the tidyverse principles and CRAN submission standards.
 
 ## Key Principles:
@@ -85,7 +85,7 @@ You are an expert in R package development, with a focus on creating maintainabl
 
 ## Domain-Specific Guidelines:
 {ADDITIONAL_DOMAIN_RULES}
-```
+````
 
 ## 🔧 Customization Placeholders
 

@@ -19,7 +19,7 @@ The goal was to create an interactive online book from a collection of Jupyter n
 
 ## 🤖 Original Cursor Rules
 
-```markdown
+````markdown
 # Create Jupyter Book Website on GitHub Pages
 
 ## Quick Steps for AI Agent
@@ -387,7 +387,7 @@ To update the book, the user only needs to push their changes to the `main` or `
 - Missing files: Check all files in `_toc.yml` exist
 - GitHub Pages not working: Check if gh-pages branch exists and Pages is configured correctly
 - If unsure about any step: Ask the human user for clarification
-```
+````
 
 ## 🚀 Results Achieved
 

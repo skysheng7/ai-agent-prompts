@@ -20,7 +20,7 @@ Goal: Create a playful, well-structured curriculum for ages 10–14 with consist
 
 ## 🤖 Original Cursor Rules
 
-```markdown
+````markdown
 ---
 alwaysApply: true
 ---
@@ -232,7 +232,7 @@ library(ggplot2)
 - Always use hierarchical numbering (1, 1.1, 1.2, 2, 2.1, etc.)
 - Include time estimations for all major sections
 - Reference exact filenames when directing students to Posit Cloud files
-```
+````
 
 ## 🚀 Results Achieved
 
