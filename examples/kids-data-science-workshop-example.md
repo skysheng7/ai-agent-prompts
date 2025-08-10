@@ -9,6 +9,11 @@
 
 This document showcases how the Kids Data Science Workshop rules guide an AI agent to generate a consistent, age-appropriate 5-day R-based workshop with clear folder structures, activity files, and solution formats.
 
+These are the actual Cursor rules used to create the live workshop outputs:
+
+- Repository: [skysheng7/data_science_for_kids](https://github.com/skysheng7/data_science_for_kids)
+- Public website (Jupyter Book): [Data Science for Kids](http://www.skysheng.io/data_science_for_kids/)
+
 ## 🎯 Project Context
 
 Goal: Create a playful, well-structured curriculum for ages 10–14 with consistent naming, emojis, time estimates, and clear activity/solution outputs across five days.
@@ -238,5 +243,7 @@ library(ggplot2)
 
 ## 🔗 Related Resources
 
-- Prompt Source: `../prompts/teaching/kids-data-science-workshop.md`
+- Prompt Source: `../prompts/teaching/data-science-workshop.md`
+- Repository: [skysheng7/data_science_for_kids](https://github.com/skysheng7/data_science_for_kids)
+- Public website (Jupyter Book): [Data Science for Kids](http://www.skysheng.io/data_science_for_kids/)
 
