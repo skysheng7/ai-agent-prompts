@@ -1,6 +1,6 @@
 # 🎒 Kids Data Science Workshop: A Real-World Example
 
-> Project: Data Science for Kids Workshop
+> **Project**: [Data Science for Kids Workshop](http://www.skysheng.io/data_science_for_kids/) 
 
 > Status: ✅ Ready-to-use rules
 
@@ -15,7 +15,6 @@ This document showcases how the Kids Data Science Workshop rules guide an AI age
 These are the actual Cursor rules used to create the live workshop outputs:
 
 - Repository: [skysheng7/data_science_for_kids](https://github.com/skysheng7/data_science_for_kids)
-- Public website (Jupyter Book): [Data Science for Kids](http://www.skysheng.io/data_science_for_kids/)
 
 ## 🎯 Project Context
 
