@@ -27,7 +27,7 @@ The goal was to create an interactive online book from a collection of Jupyter n
 
 ## Quick Steps for AI Agent
 
-### 1. Install Jupyter Book
+### 1. Check if jupyter-book is installed or not, install jupyter-book if not installed
 ```bash
 pip install jupyter-book
 ```
@@ -378,6 +378,17 @@ After the repository is pushed to GitHub, ask the human user to perform the foll
 1.  Go to their repository on GitHub.
 2.  Click **Settings** → **Pages**.
 3.  Under "Build and deployment", set the "Source" to **GitHub Actions**.
+4.  **Trigger the deployment** (choose one option):
+    - **Option A**: Make a new commit and push to trigger the workflow:
+      ```bash
+      git commit --allow-empty -m "Trigger GitHub Pages deployment"
+      git push origin main
+      ```
+    - **Option B**: Manually re-run the existing workflow:
+      - Go to **Actions** tab in your repository
+      - Click on the most recent "deploy-book" workflow
+      - Click "Re-run all jobs"
+
 
 The book will be published at the URL shown on that page after the workflow runs successfully.
 
